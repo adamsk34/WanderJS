@@ -1,0 +1,12 @@
+{
+    "name": "wikivision",
+    "version": "1.0.0",
+    "description": "Scrapes Wikipedia articles and outputs in JSON format",
+    "main": "index.js",
+    "author": "Kevin Adams <adamsk34@myumanitoba.ca>",
+    "license": "GPLv3",
+    "private": false,
+    "dependencies": {
+        "async": "^3.1.0"
+    }
+}

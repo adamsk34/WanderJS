@@ -4,7 +4,7 @@
     "description": "Scrapes Wikipedia articles and outputs in JSON format",
     "main": "index.js",
     "author": "Kevin Adams <adamsk34@myumanitoba.ca>",
-    "license": "GPLv3",
+    "license": "GPL-3.0-or-later",
     "private": false,
     "dependencies": {
         "async": "^3.1.0"

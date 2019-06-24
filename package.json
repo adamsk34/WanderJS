@@ -1,5 +1,5 @@
 {
-    "name": "wander.js",
+    "name": "wanderjs",
     "version": "1.0.0",
     "description": "Scrapes Wikipedia articles and outputs in JSON format",
     "main": "index.js",

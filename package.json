@@ -1,5 +1,5 @@
 {
-    "name": "wikivision",
+    "name": "wander.js",
     "version": "1.0.0",
     "description": "Scrapes Wikipedia articles and outputs in JSON format",
     "main": "index.js",

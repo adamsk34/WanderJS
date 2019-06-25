@@ -26,8 +26,15 @@ async.waterfall([
     cb => {
         jsonGrabber.getArticle(articleTitle, cb);
     },
+    // TODO: add err to parameters
     (articleJson, cb) => {
-        // TODO: add err to parameters
-        console.log("articleJson =", articleJson);
+        var pageKeys = Object.keys(articleJson.query.pages);
+        var contentWC = articleJson.query.pages[pageKeys].revisions[0]["*"];
+
+        cb(null, contentWC);
+    },
+    // TODO: add err to parameters
+    (contentWC, cb) => {
+        console.log("content =", contentWC);
     },
 ]);

@@ -1,7 +1,9 @@
 # TODO
 
--   Document outlining branching
+-   Document outlining branching standards
+-   There should be a class that holds the data for the article that can output more complicated stuff than merely JSON
 -   Come up with a better name (!!!)
+-   Convert wikicode to human-readable JSON
 -   Decide how others can contribute to the project
 -   Decide how to write tests (mocha)
 -   Say in README how many similar projects exist, but this one is different because it is small

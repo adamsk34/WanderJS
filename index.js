@@ -36,5 +36,7 @@ async.waterfall([
     // TODO: add err to parameters
     (contentWC, cb) => {
         console.log("content =", contentWC);
+
+        cb(null);
     },
 ]);

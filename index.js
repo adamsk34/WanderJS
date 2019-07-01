@@ -19,6 +19,7 @@
 
 const async = require("async");
 const jsonGrabber = require("./lib/jsonGrabber");
+const wt = require("wikitext-js");
 
 const articleTitle = "Stack Overflow";
 
@@ -29,13 +30,22 @@ async.waterfall([
     // TODO: add err to parameters
     (articleJson, cb) => {
         var pageKeys = Object.keys(articleJson.query.pages);
-        var contentWC = articleJson.query.pages[pageKeys].revisions[0]["*"];
+        var contentWT = articleJson.query.pages[pageKeys].revisions[0]["*"];
 
-        cb(null, contentWC);
+        cb(null, contentWT);
     },
     // TODO: add err to parameters
-    (contentWC, cb) => {
-        console.log("content =", contentWC);
+    (contentWT, cb) => {
+        const col = wt.wikitextToCollection(contentWT);
+
+        col.map(function(item) {
+            if (typeof item === "string") {
+                console.log("item =", '"' + item + '"');
+            } else {
+                console.log("item =", item);
+            }
+            console.log("\n\n");
+        });
 
         cb(null);
     },

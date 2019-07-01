@@ -2,6 +2,7 @@
 
 -   Document outlining branching standards
 -   There should be a class that holds the data for the article that can output more complicated stuff than merely JSON
+    -   Create an interface
     -   Test with TDD
 -   Come up with a better name (!!!)
 -   Convert wikitext to human-readable JSON (look for existing module)

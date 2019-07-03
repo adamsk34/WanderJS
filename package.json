@@ -3,11 +3,15 @@
     "version": "1.0.0",
     "description": "Scrapes Wikipedia articles and outputs in JSON format",
     "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --reporter spec"
+    },
     "author": "Kevin Adams <adamsk34@myumanitoba.ca>",
     "license": "GPL-3.0-or-later",
     "private": false,
     "dependencies": {
         "async": "^3.1.0",
+        "mocha": "^6.1.4",
         "request": "^2.88.0",
         "wikitext-js": "^0.2.9"
     }

@@ -2,14 +2,14 @@
 
 -   Document outlining branching standards
 -   There should be a class that holds the data for the article that can output more complicated stuff than merely JSON
-    -   Create an interface
     -   Test with TDD
+-   Add Eslint
 -   Come up with a better name (!!!)
 -   Convert wikitext to human-readable JSON (look for existing module)
 -   Decide how others can contribute to the project
 -   Decide how to write tests (mocha)
 -   Say in README how many similar projects exist, but this one is different because it is small
--   Document tools used (yarn, node)
+-   Write better documentation about tools used
 -   Create CI pipeline
 -   Vision statement
     -   Define scope, if people ask for something I can say that is out of scope

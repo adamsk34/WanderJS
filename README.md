@@ -6,9 +6,18 @@ A Node project for scraping content from Wikipedia articles.
 
 This project is not in any way affiliated with Wikipedia or the Wikipedia Foundation
 
-## LICENSE
+## Tests
 
-GPL-3.0-or-later
+To run all test run from the command line the following:
+
+```
+yarn run test
+```
+
+## Other Files
+
+-   [TechnologiesUsed](./TechnologiesUsed.md)
+-   [License](./LICENSE)
 
 ## Author
 

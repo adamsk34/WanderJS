@@ -1,6 +1,6 @@
 {
     "name": "wanderjs",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "description": "Grabs Wikipedia articles and gives simple controls for data extraction",
     "main": "index.js",
     "scripts": {

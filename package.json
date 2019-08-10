@@ -1,7 +1,7 @@
 {
     "name": "wanderjs",
     "version": "1.0.0",
-    "description": "Scrapes Wikipedia articles and outputs in JSON format",
+    "description": "Grabs Wikipedia articles and gives controls for simple data extraction",
     "main": "index.js",
     "scripts": {
         "test": "./node_modules/.bin/mocha --recursive --reporter spec"

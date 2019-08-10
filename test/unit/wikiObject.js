@@ -30,11 +30,33 @@ const stackOverflowWT = fs.readFileSync(stackOverflowWTPath).toString();
 describe("Unit", function () {
     describe("wikiObject Tests", function () {
 
-        it("Successfully Finds Infobox", function () {
-            let wObj = new WikiObject(stackOverflowWT);
+        it("Successfully generates wikitext", function () {
+            const wObj = new WikiObject(stackOverflowWT);
+            const wikitext = wObj.getWikitext();
 
-            assert(wObj.getInfobox());
-            assert.strictEqual(wObj.getInfobox().params.name, "Stack Overflow");
+            assert(wikitext);
+            assert.strictEqual(typeof wikitext, "string");
+        });
+
+        it("Successfully generates collection", function () {
+            const wObj = new WikiObject(stackOverflowWT);
+            const collection = wObj.getCollection();
+
+            assert(collection);
+            assert.strictEqual(typeof collection, "object");
+            assert(collection[0]);
+            assert(collection[0].template);
+            assert(collection[0].params);
+        });
+
+        it("Successfully generates Infobox", function () {
+            const wObj = new WikiObject(stackOverflowWT);
+            const infoBox = wObj.getInfobox();
+
+            assert(infoBox);
+            assert.strictEqual(typeof infoBox, "object");
+            assert(infoBox.params);
+            assert.strictEqual(infoBox.params.name, "Stack Overflow");
         });
     });
 });

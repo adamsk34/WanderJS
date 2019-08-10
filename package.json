@@ -4,7 +4,7 @@
     "description": "Scrapes Wikipedia articles and outputs in JSON format",
     "main": "index.js",
     "scripts": {
-        "test": "./node_modules/.bin/mocha --reporter spec"
+        "test": "./node_modules/.bin/mocha --recursive --reporter spec"
     },
     "author": "Kevin Adams <adamsk34@myumanitoba.ca>",
     "license": "GPL-3.0-or-later",

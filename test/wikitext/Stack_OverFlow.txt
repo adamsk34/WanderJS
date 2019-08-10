@@ -1,0 +1,138 @@
+{{for|the general term|Stack overflow|Stack overflow (disambiguation)}}
+{{for|the parent company|Stack Exchange}}
+{{Infobox website
+| name = Stack Overflow
+| logo = Stack Overflow logo.svg
+| screenshot = File:Stack Overflow homepage, Feb 2017.png
+| caption = Screenshot of Stack Overflow in February 2017
+| url = {{URL|https://stackoverflow.com}}
+| alexa = {{Increase}} 49 ({{as of|2019|03|19}})<ref name="alexa">{{cite web|url= https://www.alexa.com/siteinfo/stackoverflow.com | publisher= [[Alexa Internet]] |title=Stackoverflow.com Traffic, Demographics and Competitors - Alexa |accessdate= 19 March 2019 }}</ref> <!-- Updated monthly by LkolblyBot -->
+| commercial = Yes
+| programming_language = [[C Sharp (programming language)|C#]] <ref name="roadchap"/>
+| content_license = [[Creative Commons license|CC-BY-SA]] 3.0
+| type = [[Knowledge market]]
+| language = English, Spanish, Russian, Portuguese, and Japanese
+| registration = Optional
+| owner = [[Stack Exchange]], Inc.
+| author = [[Jeff Atwood]] and [[Joel Spolsky]]
+| launch date = {{start date and age|2008|9|15}}<ref name=launches>{{cite web |accessdate=2014-07-07 |url=http://www.joelonsoftware.com/items/2008/09/15.html |title=Stack Overflow Launches |author=Spolsky, Joel |date=2008-09-15 |publisher=Joel on Software }}</ref>
+| current status = Online
+| revenue = 
+}}
+
+'''Stack Overflow''' is a question and answer site for professional and enthusiast programmers. It is a privately held website, the flagship site of the [[Stack Exchange|Stack Exchange Network]],<ref name="growthmodel">{{cite journal|last=Sewak|first=M.|title=Finding a Growth Business Model at Stack Overflow, Inc.|journal=Stanford CasePublisher|date=18 May 2010|volume=Rev. 20 July 2010|issue=2010-204-1|url=http://www.stanford.edu/class/ee204/Publications/Finding%20a%20Growth%20Business%20Model%20at%20Stack%20Overflow.pdf|accessdate=23 May 2014|publisher=Stanford University School of Engineering|id=204-2010-1|display-authors=etal}}</ref><ref name="Legal">{{cite web
+| title      = Stack Exchange Network Legal Links
+| url        = https://stackexchange.com/legal
+| accessdate = 2012-01-02
+| work       = Stack Exchange}}</ref><ref name="stackapps_legal">{{cite web
+| title      = Stack Exchange API
+| url        = https://stackexchange.com/legal/terms-of-service
+| author     = Stack Overflow Internet Services, Inc.
+| date       = 2010-06-08
+| accessdate = 2010-06-08
+| work       = Stack Apps}}</ref> created in 2008 by [[Jeff Atwood]] and [[Joel Spolsky]].<ref name="introducing">{{cite web
+| title      = Introducing Stackoverflow.com
+| url        = http://www.codinghorror.com/blog/archives/001101.html
+| work       = Coding Horror
+| date       = 2008-04-16
+| accessdate = 2009-03-11
+| author     = Jeff Atwood}}</ref><ref>{{cite web
+| title      = None of Us is as Dumb as All of Us
+| url        = http://www.codinghorror.com/blog/archives/001169.html
+| work       = Coding Horror
+| date       = 2008-09-16
+| accessdate = 2009-03-11
+| author     = Jeff Atwood}}</ref> It features questions and answers on a wide range of topics in [[computer programming]].<ref name="secrets">{{cite web
+| title      = Secrets of social site success
+| url        = http://www.sdtimes.com/SHORT_TAKES_APRIL_15_2009/About_SHORTTAKES/33403
+| work       = [[SD Times]]
+| date       = 2009-04-15
+| accessdate = 2009-04-16
+| author     = Alan Zeichick}}</ref><ref name="slashdot">{{cite web
+| title      = Spolsky's Software Q-and-A Site
+| url        = http://developers.slashdot.org/article.pl?sid=08/09/16/1910214
+| work       = Slashdot
+| date       = 2008-09-16
+| accessdate = 2009-05-23}}</ref><ref name="google-tech-talks">{{cite web
+| title      = Google Tech Talks: Learning from StackOverflow.com
+| url        = https://www.youtube.com/watch?v=NWHfY_lvKIQ
+| author     = Joel Spolsky
+| publisher  = YouTube
+| date       = 2009-04-25
+| accessdate = 2009-05-23}}</ref> It was created to be a more open alternative to earlier [[Question-and-answer site|question and answer sites]] such as [[Experts-Exchange]]. The name for the website was chosen by voting in April 2008 by readers of ''Coding Horror'', Atwood's popular programming blog.<ref name="help_name">{{cite web
+| title      = Help Name Our Website
+| url        = http://blog.codinghorror.com/help-name-our-website/
+| work       = Coding Horror
+| date       = 2008-04-06
+| accessdate = 2014-07-15
+| author     = Jeff Atwood}}</ref>
+
+The website serves as a platform for users to ask and answer questions, and, through membership and active participation, to vote questions and answers up or down and edit questions and answers in a fashion similar to a [[wiki]] or [[Digg]].<ref name="fashion">{{cite web | url = http://www.codinghorror.com/blog/2011/10/the-gamification.html | work = Coding Horror Blog | author = Jeff Atwood | date= 2008-09-21 | title = The Gamification | accessdate = 2011-01-24}}</ref> Users of Stack Overflow can earn [[Reputation system|reputation points]] and "badges"; for example, a person is awarded 10 reputation points for receiving an "up" vote on an answer given to a question and 5 points for the "up" vote of a question, and can receive badges for their valued contributions,<ref name="soFAQ">{{cite web | url = https://stackoverflow.com/help/whats-reputation | work = Stack Overflow | title = What is reputation? How do I earn (and lose) it? | accessdate = 14 August 2010}}</ref> which represents a kind of [[gamification]] of the traditional [[Q&A site]]. Users unlock new privileges with an increase in reputation like the ability to vote, comment, and even edit other people's posts.<ref>{{Cite web|url=https://stackoverflow.com/help/privileges|title=List of privileges|last=|first=|date=|website=|archive-url=|archive-date=|dead-url=|access-date=}}</ref> All [[user-generated content]] is licensed under a [[CC-BY-SA 3.0|Creative Commons Attribute-ShareAlike]] license.<ref>{{cite web|url=https://wiki.creativecommons.org/Case_Studies/StackOverflow.com|title=Case Studies/StackOverflow.com|work=creativecommons.org}}</ref>
+
+Closing questions is a main differentiation from [[Yahoo! Answers]] and a way to prevent low quality questions.<ref>{{cite web|title=Closing changes: on hold, unclear, too broad, opinion-based, off-topic reasons, bye-bye to Too Localized|url=https://meta.stackexchange.com/questions/184154/closing-changes-on-hold-unclear-too-broad-opinion-based-off-topic-reasons|publisher=meta.stackexchange.com}}</ref> The mechanism was overhauled in 2013; questions edited after being put "on hold" now appear in a review queue.<ref>{{cite web|url=https://stackoverflow.blog/2013/06/25/the-war-of-the-closes/|title=The war of the closes}}</ref> Jeff Atwood stated in 2010 that duplicate questions are not seen as a problem but rather they constitute an advantage if such additional questions drive extra traffic to the site by [[Search engine optimization|multiplying relevant keyword hits in search engines]].<ref>{{cite web|url=https://blog.stackoverflow.com/2010/11/dr-strangedupe-or-how-i-learned-to-stop-worrying-and-love-duplication/|title=Dr. Strangedupe: Or, How I Learned to Stop Worrying And Love Duplication|work=stackoverflow.com}}</ref>
+
+{{As of|2019|01}} Stack Overflow has over 10 million registered users,<ref name="soUSERS">{{cite web|url=https://stackexchange.com/sites?view=list#users|title=All Sites|last=|first=|date=|work=Stack Overflow|archive-url=|archive-date=|dead-url=|accessdate=15 April 2014}}</ref> and it exceeded 16 million questions in mid 2018.<ref name="soQUESTIONS_10M">{{cite web|url=https://meta.stackoverflow.com/questions/302884/10-000-000th-question-is-here|title=10,000,000th question is here!|date=21 August 2015|website=Stack Overflow|publisher=|accessdate=10 August 2016}}</ref> Based on the type of [[tag (metadata)|tags]] assigned to questions, the top eight most discussed topics on the site are: [[JavaScript]], [[Java (programming language)|Java]],  [[C Sharp (programming language)|C#]], [[PHP]], [[Android (operating system)|Android]], [[Python (programming language)|Python]], [[jQuery]] and [[HTML]].<ref name="tags">{{cite web | work = Stack Overflow | title = Tags | url = https://stackoverflow.com/tags | accessdate = 9 December 2014}}</ref>
+
+Stack Overflow also has a Jobs section to assist developers in finding their next opportunity.<ref>{{cite web|url=https://stackoverflow.com/jobs|title=Developer Jobs, Programming Jobs & More  - Stack Overflow|website=stackoverflow.com|accessdate=12 December 2016}}</ref> For employers, Stack Overflow provides tools to brand their business, advertise their openings on the site, and source candidates from Stack Overflow's database of developers who are open to being contacted.<ref>{{cite web|title=Stack Overflow Business |url=https://www.stackoverflowbusiness.com/ |website=www.stackoverflowbusiness.com|accessdate=12 December 2016}}</ref>
+
+== History ==
+The website was created by [[Jeff Atwood]] and [[Joel Spolsky]] in 2007.<ref name="introducing"/>  On 31 July 2008, Jeff Atwood sent out invitations encouraging his subscribers to take part in the private beta of the new website, limiting its use to those willing to test out the new software.  On 15 September 2008 it was announced that the public beta version was in session and that the general public was now able to use it to seek assistance on programming related issues. The design of the Stack Overflow logo was decided by a voting process.<ref>{{cite web|title=J.Atwood & J.Spolsky founding stackoverflow.com -- but we need a logo.|url=http://99designs.com/logo-design/contests/logo-stackoverflow-6774/brief#contest-breadcrumbs|publisher=99Designs.com|accessdate=23 May 2014|date=30 April 2008}}</ref>
+
+On 3 May 2010, it was announced that Stack Overflow had raised $6 million in venture capital from a group of investors led by [[Union Square Ventures]].<ref>{{cite web|last=Ha|first=Anthony|title=Stack Overflow raises $6M to take its Q&A model beyond programming |url=https://venturebeat.com/2010/05/04/stack-overflow-funding/|publisher=VentureBeat|accessdate=23 May 2014|date=4 May 2010|quote=The money we've raised means that, for the next ($6m / monthly burn rate) months, we can take on new projects, hire new people, and build new expert Q&A sites on a wide variety of new topics. Instead of opening sites in exchange for money, we’re about to launch a new, democratic system where anyone can propose a Q&A site, and, if it gets a critical mass of interested people, we'll create it.}}</ref>
+
+===Content criteria ===
+Stack Overflow only accepts questions about programming that are tightly focused on a specific problem. Questions of a broader nature–or those inviting answers that are inherently a matter of opinion– are usually rejected by the site's users, and marked as closed. The sister site softwareengineering.stackexchange.com is intended to be a venue for broader queries, e.g. general questions about [[software development]].
+
+=== User suspension ===
+In April 2009, Stack Exchange implemented a policy of "timed suspension",<ref name="Stackoverflow Blog">{{cite web | url = https://blog.stackoverflow.com/2009/04/a-day-in-the-penalty-box | work = StackOverflow Blog | title = A Day in the Penalty Box| accessdate = 2009-04-06 | first = Jeff | last = Atwood | date = 2009-04-06}}</ref> in order to curtail users who either show "No effort to learn (the community rules) and improve over time" or engage in "disruptive behavior" and become a nuisance. The suspension is accompanied by temporarily setting the user's reputation score at '1' and a notation on the user's profile page indicating the suspension and remaining duration.
+
+=== Security breach ===
+In early May 2019, an update was deployed to Stack Overflow's development version. It contained a bug which allowed an attacker to grant themselves privileges in accessing the production version of the site. Stack Overflow published on their blog that approximately 250 public network users were affected by this breach, which "could have returned IP address, names, or emails".<ref name="Cimpanu">{{Cite web|url=https://www.zdnet.com/article/stack-overflow-says-hackers-breached-production-systems/|title=Stack Overflow says hackers breached production systems|last=Cimpanu|first=Catalin|website=ZDNet|language=en|access-date=2019-06-22}}</ref><ref name="Cimpanu"/>
+
+== Statistics ==
+
+A 2013 study has found that 75% of users only ask one question, 65% only answer one question, and only 8% of users answer more than 5 questions.<ref>{{cite web|last=Wang|first=Shaowei|title=An Empirical Study on Developer Interactions in StackOverflow |url=http://www.mysmu.edu/faculty/lxjiang/papers/sac13stackoverflow.pdf|publisher=Singapore Management University|author2=David Lo|author3= Lingxiao Jiang|archiveurl=https://www.webcitation.org/6NeNOY5oR|archivedate=25 February 2014|date=18–22 March 2013}}</ref> As of 2011, 92% of the questions were answered, in a median time of 11 minutes.<ref>{{cite journal|last=Mamykina|first=Lena|author2=Bella Manoim|author3= Manas Mittal|author4= George Hripcsak|author5= Björn Hartmann|title=Design lessons from the fastest q&a site in the west|journal=CHI '11 Proceedings of the SIGCHI Conference on Human Factors in Computing Systems|year=2011|pages=2857–2866 |doi=10.1145/1978942.1979366 |url=http://www.cs.berkeley.edu/~bjoern/projects/stackoverflow/|isbn=9781450302289}}</ref> Since 2013, the Stack Exchange network software automatically deletes closed questions that meet certain criteria, including having no answers in a certain amount of time.<ref>{{cite web |url=https://meta.stackexchange.com/a/177675|title=Turbocharging the Roomba: solutions for premature deletion|work=stackexchange.com}}</ref>
+
+As of August 2012, 443,000 of the 1.3M registered users had answered at least one question, and of those, approximately 6,000 (0.46% of the total user count) had earned a reputation score greater than 5000.<ref name="Bosu et al.">{{cite web|last=Bosu|first=Amiangshu|title=Building Reputation in StackOverflow: An Empirical Investigation|url=http://amiangshu.com/papers/msr-challenge-preprint-bosu.pdf|publisher=Department of Computer Science, The University of Alabama|author2=Christopher S. Corley |author3=Dustin Heaton |author4=Debarshi Chatterji |author5=Jeffrey C. Carver |author6=Nicholas A. Kraft |location=Tuscaloosa, AL 35487-0290, USA|year=2013}}</ref> Reputation can be gained fastest by answering questions related to tags with lower expertise density, doing so promptly (in particular being the first one to answer a question), being active during off-peak hours, and contributing to diverse areas.<ref name="Bosu et al."/>
+
+In 2016, 1.5 million posts were deleted, of which about 8% were deleted by moderators.<ref>{{cite web|title=What posts get deleted, and why?|url=https://meta.stackoverflow.com/questions/296608/what-posts-get-deleted-and-why|publisher=Meta.StackOverflow|date=3 January 2017}}</ref>
+
+== Technology ==
+
+Stack Overflow is written in [[C Sharp (programming language)|C#]]<ref name="roadchap">{{cite web | url = https://meta.stackexchange.com/questions/10369/which-tools-and-technologies-are-used-to-build-the-stack-exchange-network | title = Which tools and technologies are used to build the Stack Exchange Network? | work = Meta Stack Overflow | publisher = Stack Overflow}}</ref> using the [[ASP.NET MVC]] ([[Model-View-Controller]]) framework, and [[Microsoft SQL Server]] for the database<ref name="soStack">{{cite web | title= What Was Stack Overflow Built With? | url= https://blog.stackoverflow.com/2008/09/what-was-stack-overflow-built-with/| work= Stack Overflow Blog | author = Jeff Atwood | date= 2008-09-21 | accessdate=2009-05-23}}</ref> and the [[Dapper ORM|Dapper]] [[object-relational mapper]] used for data access.<ref name="dapperIntro">{{cite web | title= How I learned to stop worrying and write my own ORM | url= http://samsaffron.com/archive/2011/03/30/How+I+learned+to+stop+worrying+and+write+my+own+ORM | author = Sam Saffron | date= 2011-03-30 | accessdate=2014-07-22}}</ref> Unregistered users have access to most of the site's functionality, while users who sign in can gain access to more functionality, such as asking or answering a question, establishing a profile and being able to earn reputation to allow functionality like re-tagging questions or voting to close a question.
+
+== Reception ==
+{{more citations needed section|date=June 2019}}
+
+Stack Overflow has received general praise for its architecture of handling questions and answers as they are regulated by the community.<ref>{{Cite web|url=https://www.cs.cornell.edu/home/kleinber/kdd12-qa.pdf |title=Discovering Value from Community Activity on Focused Question Answering Sites: A Case Study of Stack Overflow |last1=Anderson |first1=Ashton |last2=Huttenlocher |first2=Daniel |last3=Kleinberg |first3=Jon |last4=Luskovec |first4=Jure |date=2012 |format=PDF |website=[[Cornell University]]}}</ref> Its success has often been attributed to self-regulation.{{citation needed|date=September 2016}}
+
+Stack Overflow has been criticized for the proliferation of poor programming and development practices, specifically by encouraging developers to prioritize basic functionality at the expense of other features like security. A study from the University of Maryland found that Android developers that used only Stack Overflow as their programming resource tended to write more insecure code than those who used only the official Android developer documentation from Google.<ref>Y. Acar, M. Backes, S. Fahl, D. Kim, M. L. Mazurek and C. Stransky, "[https://www.cs.umd.edu/class/fall2017/cmsc818O/papers/get-where-look.pdf You Get Where You're Looking for: The Impact of Information Sources on Code Security]," ''2016 IEEE Symposium on Security and Privacy (SP)'', San Jose, CA, 2016, pp. 289-305.
+
+doi: 10.1109/SP.2016.25
+</ref>
+
+== See also ==
+{{portal|Internet}}
+* [[Askbot]] (free engine)
+* [[OSQA]] (Open Source Question and Answer)
+* [[Rosetta Code]] (Multi-lingual algorithms)
+* [[List of Internet forums]]
+
+{{clear}}
+
+== References ==
+{{reflist|30em}}
+
+== External links ==
+*{{Official website}}
+
+{{Fog Creek Software}}
+
+{{use dmy dates|date=March 2012}}
+
+[[Category:Computing websites]]
+[[Category:Internet properties established in 2008]]
+[[Category:Software developer communities]]
+[[Category:Stack Exchange network]]
+[[Category:Gamification]]
+[[Category:Question-and-answer websites]]

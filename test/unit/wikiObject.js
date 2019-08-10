@@ -16,9 +16,23 @@
     You should have received a copy of the GNU General Public License
     along with WanderJS.  If not, see <https://www.gnu.org/licenses/>.
 */
+const assert = require("assert");
+const fs = require("fs");
+const path = require("path");
+const WikiObject = require("../../lib/wikiObject");
 
-describe("Test1", function() {
-    it("it1", function() {
-        console.log("!");
+const stackOverflowWTPath = path.join(
+    __dirname,
+    "../wikitext/Stack_OverFlow.txt"
+);
+const stackOverflowWT = fs.readFileSync(stackOverflowWTPath).toString();
+
+describe("Unit", function() {
+    describe("wikiObject Tests", function() {
+        it("Successfully Finds Infobox", function() {
+            let wObj = new WikiObject(stackOverflowWT);
+
+            assert(wObj.getInfobox());
+        });
     });
 });

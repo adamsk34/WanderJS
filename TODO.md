@@ -1,5 +1,6 @@
 # TODO
 
+-   Stop using Prettier Extension and use eslint instead
 -   Document outlining branching standards
 -   There should be a class that holds the data for the article that can output more complicated stuff than merely JSON
     -   Test with TDD

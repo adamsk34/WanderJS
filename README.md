@@ -2,6 +2,8 @@
 
 A Node project for scraping content from Wikipedia articles.
 
+WanderJS is only officially supported for the English version of Wikipedia. If you speak another language and want to help expand the number of supported languages, your help would be welcomed.
+
 ## Disclaimer
 
 This project is not in any way affiliated with Wikipedia or the Wikimedia Foundation
@@ -16,7 +18,6 @@ yarn run test
 
 ## Other Files
 
--   [TechnologiesUsed](./TechnologiesUsed.md)
 -   [License](./LICENSE)
 
 ## Author

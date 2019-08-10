@@ -1,11 +1,9 @@
 # TODO
 
--   Stop using Prettier Extension and use eslint instead
+-   Use Eslint
 -   Document outlining branching standards
 -   There should be a class that holds the data for the article that can output more complicated stuff than merely JSON
     -   Test with TDD
--   Add Eslint
--   Come up with a better name (!!!)
 -   Convert wikitext to human-readable JSON (look for existing module)
 -   Decide how others can contribute to the project
 -   Decide how to write tests (mocha)

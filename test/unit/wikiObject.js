@@ -27,9 +27,9 @@ const stackOverflowWTPath = path.join(
 );
 const stackOverflowWT = fs.readFileSync(stackOverflowWTPath).toString();
 
-describe("Unit", function() {
-    describe("wikiObject Tests", function() {
-        it("Successfully Finds Infobox", function() {
+describe("Unit", function () {
+    describe("wikiObject Tests", function () {
+        it("Successfully Finds Infobox", function () {
             let wObj = new WikiObject(stackOverflowWT);
 
             assert(wObj.getInfobox());

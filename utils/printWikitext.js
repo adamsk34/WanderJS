@@ -16,25 +16,33 @@
     You should have received a copy of the GNU General Public License
     along with WanderJS.  If not, see <https://www.gnu.org/licenses/>.
 */
-const assert = require("assert");
-const fs = require("fs");
-const path = require("path");
-const WikiObject = require("../../lib/wikiObject");
 
-const stackOverflowWTPath = path.join(
-    __dirname,
-    "../wikitext/Stack_OverFlow.txt"
-);
-const stackOverflowWT = fs.readFileSync(stackOverflowWTPath).toString();
+const async = require("async");
+const jsonGrabber = require("../lib/jsonGrabber");
 
-describe("Unit", function () {
-    describe("wikiObject Tests", function () {
 
-        it("Successfully Finds Infobox", function () {
-            let wObj = new WikiObject(stackOverflowWT);
+const articleTitle = process.argv[2];
 
-            assert(wObj.getInfobox());
-            assert.strictEqual(wObj.getInfobox().params.name, "Stack Overflow");
-        });
-    });
-});
+if (!articleTitle) {
+    throw { error: "missing_title" };
+}
+
+async.waterfall([
+    cb => {
+        jsonGrabber.getArticle(articleTitle, cb);
+    },
+    (articleJson, cb) => {
+        let pageKeys = Object.keys(articleJson.query.pages);
+
+        if (!articleJson.query.pages[pageKeys].revisions) {
+            throw { error: "article_not_found" };
+        }
+
+        let contentWT = articleJson.query.pages[pageKeys].revisions[0]["*"];
+
+        cb(null, contentWT);
+    },
+    (contentWT, cb) => {
+        console.log(contentWT);
+    },
+]);

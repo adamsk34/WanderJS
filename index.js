@@ -28,8 +28,8 @@ async.waterfall([
         jsonGrabber.getArticle(articleTitle, cb);
     },
     (articleJson, cb) => {
-        var pageKeys = Object.keys(articleJson.query.pages);
-        var contentWT = articleJson.query.pages[pageKeys].revisions[0]["*"];
+        let pageKeys = Object.keys(articleJson.query.pages);
+        let contentWT = articleJson.query.pages[pageKeys].revisions[0]["*"];
 
         cb(null, contentWT);
     },

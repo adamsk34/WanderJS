@@ -27,6 +27,8 @@ const stackOverflowWTPath = path.join(
 );
 const stackOverflowWT = fs.readFileSync(stackOverflowWTPath).toString();
 
+// TODO: write tests for beyond the "happy path"
+
 describe("Integration", function () {
     describe("WikiObject Tests", function () {
 

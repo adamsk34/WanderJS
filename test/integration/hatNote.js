@@ -20,6 +20,8 @@
 const assert = require("assert");
 const HatNote = require("../../models/hatNote");
 
+// TODO: write tests for beyond the "happy path"
+
 describe("Integration", function () {
     describe("HatNote Tests", function () {
 

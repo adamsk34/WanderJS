@@ -20,6 +20,8 @@
 const assert = require("assert");
 const templateHandler = require("../../lib/hatNoteTemplateHandler");
 
+// TODO: write tests for beyond the "happy path"
+
 describe("Unit", function () {
     describe("templateHandler Tests", function () {
 
@@ -67,6 +69,76 @@ describe("Unit", function () {
             assert.strictEqual(links[1].start, 45);
             assert(links[1].length);
             assert.strictEqual(links[1].length, 31);
+        });
+
+        it("Successfully generates verbose information about hat note", function () {
+            const template = {
+                template: 'for',
+                params:
+                {
+                    'the general term': true,
+                    'Stack overflow': true,
+                    'Stack overflow (disambiguation)': true
+                }
+            };
+
+            const hatNoteVerboseArr = templateHandler.getHatNoteVerboseArray(template);
+
+            assert(hatNoteVerboseArr);
+            assert.strictEqual(hatNoteVerboseArr.length, 7);
+
+            assert(!hatNoteVerboseArr[0].link);// link === false
+            assert.strictEqual(hatNoteVerboseArr[0].content, "For ");
+
+            assert(hatNoteVerboseArr[1].link);// link === true
+            assert.strictEqual(hatNoteVerboseArr[1].content, "the general term");
+
+            assert(!hatNoteVerboseArr[2].link);// link === false
+            assert.strictEqual(hatNoteVerboseArr[2].content, ", see ");
+
+            assert(hatNoteVerboseArr[3].link);// link === true
+            assert.strictEqual(hatNoteVerboseArr[3].content, "Stack overflow");
+
+            assert(!hatNoteVerboseArr[4].link);// link === false
+            assert.strictEqual(hatNoteVerboseArr[4].content, " and ");
+
+            assert(hatNoteVerboseArr[5].link);// link === true
+            assert.strictEqual(hatNoteVerboseArr[5].content, "Stack overflow (disambiguation)");
+
+            assert(!hatNoteVerboseArr[6].link);// link === false
+            assert.strictEqual(hatNoteVerboseArr[6].content, ".");
+        });
+
+        it("Successfully finds the start of the link \"Stack overflow\"", function () {
+            const template = {
+                template: 'for',
+                params:
+                {
+                    'the general term': true,
+                    'Stack overflow': true,
+                    'Stack overflow (disambiguation)': true
+                }
+            };
+
+            const start = templateHandler.getHatNoteLinkStart(template, "Stack overflow");
+
+            assert.strictEqual(start, 26);
+        });
+
+        it("Successfully finds the start of the link \"Stack overflow (disambiguation)\"", function () {
+            const template = {
+                template: 'for',
+                params:
+                {
+                    'the general term': true,
+                    'Stack overflow': true,
+                    'Stack overflow (disambiguation)': true
+                }
+            };
+
+            const start = templateHandler.getHatNoteLinkStart(template, "Stack overflow (disambiguation)");
+
+            assert.strictEqual(start, 45);
         });
     });
 });

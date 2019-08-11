@@ -71,10 +71,9 @@ describe("Integration", function () {
             assert(hatNotes[0].links);
             assert.strictEqual(hatNotes[0].links.length, 2);
             assert(hatNotes[0].links[0].url);
-            assert(hatNotes[0].links[0].start);
             assert.strictEqual(hatNotes[0].links[0].start, 26);
             assert(hatNotes[0].links[0].length);
-            assert.strictEqual(hatNotes[0].links[0].length, 13);
+            assert.strictEqual(hatNotes[0].links[0].length, 14);
             assert.strictEqual(hatNotes[0].links[1].start, 45);
             assert(hatNotes[0].links[1].length);
             assert.strictEqual(hatNotes[0].links[1].length, 31);
@@ -84,11 +83,9 @@ describe("Integration", function () {
             assert(hatNotes[1].links);
             assert.strictEqual(hatNotes[1].links.length, 1);
             assert(hatNotes[1].links[0].url);
-            assert(hatNotes[1].links[0].start);
-            assert.strictEqual(hatNotes[1].links[0].start, 26);
+            assert.strictEqual(hatNotes[1].links[0].start, 28);
             assert(hatNotes[1].links[0].length);
-            assert.strictEqual(hatNotes[1].links[0].length, 13);
-            assert.strictEqual(hatNotes[1].links[1].start, 45);
+            assert.strictEqual(hatNotes[1].links[0].length, 14);
         });
     });
 });

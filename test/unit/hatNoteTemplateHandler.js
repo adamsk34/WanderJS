@@ -18,10 +18,10 @@
 */
 
 const assert = require("assert");
-const templateHandler = require("../../lib/templateHandler");
+const templateHandler = require("../../lib/hatNoteTemplateHandler");
 
 describe("Unit", function () {
-    describe("HatNote Tests", function () {
+    describe("templateHandler Tests", function () {
 
         it("Successfully pulls text from \"for\" template", function () {
             const template = {
@@ -55,11 +55,15 @@ describe("Unit", function () {
 
             assert(links);
             assert.strictEqual(links.length, 2);
+
             assert(links[0].url);
-            assert(links[0].start);
+
             assert.strictEqual(links[0].start, 26);
             assert(links[0].length);
-            assert.strictEqual(links[0].length, 13);
+            assert.strictEqual(links[0].length, 14);
+
+            assert(links[1].url);
+
             assert.strictEqual(links[1].start, 45);
             assert(links[1].length);
             assert.strictEqual(links[1].length, 31);

@@ -24,7 +24,7 @@ const jsonGrabber = require("../lib/jsonGrabber");
 const articleTitle = process.argv[2];
 
 if (!articleTitle) {
-    throw { error: "missing_title" };
+    throw { error: "You must provide an article title" };
 }
 
 async.waterfall([
@@ -35,7 +35,7 @@ async.waterfall([
         let pageKeys = Object.keys(articleJson.query.pages);
 
         if (!articleJson.query.pages[pageKeys].revisions) {
-            throw { error: "article_not_found" };
+            throw { error: `Failed to find article title ${articleTitle}` };
         }
 
         let contentWT = articleJson.query.pages[pageKeys].revisions[0]["*"];

@@ -17,11 +17,11 @@
     along with WanderJS.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-const templateHandler = require("../lib/templateHandler");
+const templateHandler = require("../lib/hatNoteTemplateHandler");
 
 const HatNote = function (hatNoteTemplate) {
     if (hatNoteTemplate.template !== "for") {
-        throw { error: `invalid template: ${hatNoteTemplate.template}, expected \"for\"` };
+        throw { error: `Invalid template: ${hatNoteTemplate.template}, expected \"for\"` };
     }
 
     // TODO: I should not be iterating over keys expecting them to come in a specific order
@@ -32,15 +32,3 @@ const HatNote = function (hatNoteTemplate) {
 };
 
 module.exports = HatNote;
-/*
-{
-    "text": "",
-    "links": [
-        {
-            "url": "",
-            "start": 0,
-            "length": 1
-        }
-    ]
-}
-*/

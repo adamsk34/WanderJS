@@ -36,15 +36,21 @@ describe("Integration", function () {
 
             const hatNoteObj = new HatNote(template);
 
+            assert(hatNoteObj);
+
             assert(hatNoteObj.text);
             assert.strictEqual(hatNoteObj.text, "For the general term, see Stack overflow and Stack overflow (disambiguation).");
             assert(hatNoteObj.links);
             assert.strictEqual(hatNoteObj.links.length, 2);
+
             assert(hatNoteObj.links[0].url);
-            assert(hatNoteObj.links[0].start);
+
             assert.strictEqual(hatNoteObj.links[0].start, 26);
             assert(hatNoteObj.links[0].length);
-            assert.strictEqual(hatNoteObj.links[0].length, 13);
+            assert.strictEqual(hatNoteObj.links[0].length, 14);
+
+            assert(hatNoteObj.links[1].url);
+
             assert.strictEqual(hatNoteObj.links[1].start, 45);
             assert(hatNoteObj.links[1].length);
             assert.strictEqual(hatNoteObj.links[1].length, 31);

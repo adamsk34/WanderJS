@@ -27,12 +27,12 @@ describe("Integration", function () {
 
         it("Successfully creates HatNote object", function () {
             const template = {
-                template: 'for',
+                template: "for",
                 params:
                 {
-                    'the general term': true,
-                    'Stack overflow': true,
-                    'Stack overflow (disambiguation)': true
+                    "the general term": true,
+                    "Stack overflow": true,
+                    "Stack overflow (disambiguation)": true
                 }
             };
 

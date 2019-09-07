@@ -4,14 +4,19 @@
     "description": "A Node Module for extracting data from Wikipedia articles",
     "main": "index.js",
     "scripts": {
-        "test": "./node_modules/.bin/mocha --recursive --reporter spec"
+        "test": "./node_modules/.bin/mocha --recursive --reporter spec",
+        "eslint": "./node_modules/.bin/eslint lib models test utils index.js",
+        "fix-lint": "./node_modules/.bin/eslint lib models test utils index.js --fix"
     },
     "author": "Kevin Adams <adamsk34@myumanitoba.ca>",
     "license": "GPL-3.0-or-later",
     "private": false,
+    "devDependencies": {
+        "eslint": "^6.3.0",
+        "mocha": "^6.1.4"
+    },
     "dependencies": {
         "async": "^3.1.0",
-        "mocha": "^6.1.4",
         "request": "^2.88.0",
         "wikitext-js": "^0.2.9"
     }

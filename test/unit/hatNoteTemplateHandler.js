@@ -27,12 +27,12 @@ describe("Unit", function () {
 
         it("Successfully pulls text from \"for\" template", function () {
             const template = {
-                template: 'for',
+                template: "for",
                 params:
                 {
-                    'the general term': true,
-                    'Stack overflow': true,
-                    'Stack overflow (disambiguation)': true
+                    "the general term": true,
+                    "Stack overflow": true,
+                    "Stack overflow (disambiguation)": true
                 }
             };
 
@@ -44,12 +44,12 @@ describe("Unit", function () {
 
         it("Successfully pulls links from \"for\" template", function () {
             const template = {
-                template: 'for',
+                template: "for",
                 params:
                 {
-                    'the general term': true,
-                    'Stack overflow': true,
-                    'Stack overflow (disambiguation)': true
+                    "the general term": true,
+                    "Stack overflow": true,
+                    "Stack overflow (disambiguation)": true
                 }
             };
 
@@ -73,12 +73,12 @@ describe("Unit", function () {
 
         it("Successfully generates verbose information about hat note", function () {
             const template = {
-                template: 'for',
+                template: "for",
                 params:
                 {
-                    'the general term': true,
-                    'Stack overflow': true,
-                    'Stack overflow (disambiguation)': true
+                    "the general term": true,
+                    "Stack overflow": true,
+                    "Stack overflow (disambiguation)": true
                 }
             };
 
@@ -111,12 +111,12 @@ describe("Unit", function () {
 
         it("Successfully finds the start of the link \"Stack overflow\"", function () {
             const template = {
-                template: 'for',
+                template: "for",
                 params:
                 {
-                    'the general term': true,
-                    'Stack overflow': true,
-                    'Stack overflow (disambiguation)': true
+                    "the general term": true,
+                    "Stack overflow": true,
+                    "Stack overflow (disambiguation)": true
                 }
             };
 
@@ -127,12 +127,12 @@ describe("Unit", function () {
 
         it("Successfully finds the start of the link \"Stack overflow (disambiguation)\"", function () {
             const template = {
-                template: 'for',
+                template: "for",
                 params:
                 {
-                    'the general term': true,
-                    'Stack overflow': true,
-                    'Stack overflow (disambiguation)': true
+                    "the general term": true,
+                    "Stack overflow": true,
+                    "Stack overflow (disambiguation)": true
                 }
             };
 

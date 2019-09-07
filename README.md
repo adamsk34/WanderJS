@@ -1,6 +1,6 @@
 # WanderJS
 
-A Node project for scraping content from Wikipedia articles.
+A Node Module for extracting data from Wikipedia articles.
 
 WanderJS is only officially supported for the English version of Wikipedia. If you speak another language and want to help expand the number of supported languages, your help would be welcomed.
 

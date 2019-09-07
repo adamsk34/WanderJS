@@ -1,7 +1,7 @@
 {
     "name": "wanderjs",
     "version": "0.0.0",
-    "description": "Grabs Wikipedia articles and gives simple controls for data extraction",
+    "description": "A Node Module for extracting data from Wikipedia articles",
     "main": "index.js",
     "scripts": {
         "test": "./node_modules/.bin/mocha --recursive --reporter spec"

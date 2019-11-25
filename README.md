@@ -1,4 +1,4 @@
-# WanderJS
+# WanderJS (\*unfinished\*)
 
 A Node Module for extracting data from Wikipedia articles.
 

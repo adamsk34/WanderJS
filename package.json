@@ -16,7 +16,7 @@
         "mocha": "^6.1.4"
     },
     "dependencies": {
-        "async": "^3.1.0",
+        "async": "^3.2.2",
         "request": "^2.88.0",
         "wikitext-js": "^0.2.9"
     }
